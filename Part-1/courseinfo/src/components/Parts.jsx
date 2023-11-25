@@ -1,5 +1,5 @@
-export const Parts = ( {part, exercise} ) => {
+export const Parts = ( {name, exercises} ) => {
   return (
-    <p>{part} {exercise}</p>
+    <p>{name} {exercises}</p>
   )
 }

@@ -1,7 +1,7 @@
-export const Total = ( {exercises1, exercises2, exercises3} ) => {
+export const Total = ( { part1, part2, part3 } ) => {
   return (
     <p>
-      Number of exercises {exercises1 + exercises2 + exercises3}
+      Number of exercises {part1.exercises + part2.exercises + part3.exercises}
     </p>
   )
 }

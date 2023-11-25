@@ -1,10 +1,10 @@
 import { Parts } from "./Parts"
 
-export const Content = ( { parts } ) => {
+export const Content = ( { course } ) => {
   return (
     <>
       {
-        parts.map( part =>
+        course.parts.map( part =>
           <Parts 
             key={part.name} 
             name={part.name} 
